@@ -56,28 +56,20 @@ https://www.ea.com/nl-nl/games/fifa/fifa-23
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+ Alles word eentonig en raar uitgesproken. 
+  headers worden als Koptext (Nummer) uitgesproken
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  geen problemen mee, normale navigatie
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+ Elastiekjes zorgden ervoor dat je multitasker moest uitvoeren als je scrollt
+ook is het moeilijk te typen aangezien de kleine toetsen
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+ De bril met het 'Slecht zien' ofterwel met het kleine gaatje in het midden 
+zorge ervoor dat ik een klein stukje van mijn scherm kon zien, en ik regelmatig
+mijn muis kwijt raakte. 
 </details>
 
 
