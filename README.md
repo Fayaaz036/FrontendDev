@@ -97,20 +97,23 @@ mijn muis kwijt raakte.
 ## Voortgang 1 (week 2)
 
 <details>
-  <summary>uitwerken voor 1e voortgang</summary>
+  <summary>Voorgang week 1</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Tijdens eerste week heb ik de eerste pagina van de website gemaakt.
+Hierbij heb ik de layout nagebouwd en de content gevuld.
+Niet alles ging vlekkeloos, maaar goed het werkt (een soort van)
+
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | fayaaz 1                                                       | student 2          | student 3    | student 4        |
+----------------------------------------------------------------| ---                | ---          | ---              |
+  | blokjes veranderen zonder dat ik zeg dat zij moeten veranderen | en dit             | en ik dit    | en dan ik dat    |
+  | section background video?                                      | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...                                                            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
