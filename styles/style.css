@@ -84,6 +84,10 @@ h3 {
     font-family: "Neue Plak W01", sans-serif ;
     text-transform:uppercase;
 }
+h4 {
+    font-family: "Neue Plak W01", sans-serif ;
+
+}
 header li {
     font-family: "NeuePlakTextW04-Regular", sans-serif ;
     display:inline;
@@ -99,71 +103,85 @@ header button {
 
 
 /* ************************
-/* 1e section css
+ 1e section css
 ************************* */
 body > section:nth-of-type(1)  {
-    display: flex;
+    display:flex;
     background-color: #144162;
+    height:50px;
+    padding:10px;
+    max-width:100%;
 }
 
 
 body > section:nth-of-type(1) > p  {
     color:white;
-    padding:10px;
-    font-size: 24px;
+    font-size: 10px;
     font-family: "Neue Plak W01",sans-serif;
 
 }
 
 
-/* 2e section css
- */
 
 
-section:nth-of-type(2)  {
+
+
+/* ************************
+ 2e section css HYPERMOTION2
+************************* */
+body>section:nth-of-type(2)  {
     display: block;
     text-align: center;
-    padding-bottom:50px ;
-    padding-top:50px;
+    padding-bottom:150px ;
+    padding-top:150px;
+    background-image: url(/images/sectiestadium.jpg);
+}
+body >section:nth-of-type(2) > h2 {
+    color:white;
+    padding-right: 20px;
+}
+body >section:nth-of-type(2) > button {
+    color:white;
+    width:80%
 }
 
-section:nth-of-type(3)   {
 
 
-
-}
-section:nth-of-type(3) {
+/* ************************
+ 3e section css NIEUWE IN FIFA 23
+************************* */
+body >section:nth-of-type(3) {
     background-image: url(/images/sectionbg.png);
 
 }
-section:nth-of-type(3)  > h2 {
+body >section:nth-of-type(3)  > h2 {
     text-align: center;
     margin-bottom: 50px;
     font-size: 2em;
 }
-/* einde wankelcode */
 
-section:nth-of-type(3) > article {
+body >section:nth-of-type(3) > article {
     display:grid;
     background-color:var(--color-kaart);
     width:400px;
-    height:500px;
+    height:100%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom:50px;
 }
-section:nth-of-type(3)  > article > img {
+body >section:nth-of-type(3)  > article > img {
     width:100%;
 }
-section:nth-of-type(3)  > article > p {
+body >section:nth-of-type(3)  > article > p {
     margin-left: 25px;
     margin-right: 25px;
     text-align: center;
 }
-section:nth-of-type(3)  > article > h3 {
+body >section:nth-of-type(3)  > article > h3 {
     text-align: center;
 }
 
-section:nth-of-type(3)  {
+body >section:nth-of-type(3)  {
     margin-top: -10px;
     padding-top: 150px;
     padding-bottom: 100px;
@@ -175,63 +193,131 @@ section:nth-of-type(3)  {
     align-content: center;
 
 }
-section:nth-of-type(4) h3  {
+
+
+
+
+/* ************************
+ 4e section css Crossplay
+************************* */
+body >section:nth-of-type(4) h3  {
     font-size:30px;
 }
 
-section:nth-of-type(4){
+body >section:nth-of-type(4){
     background-image: url(/images/sectionbg.png);
     margin-top:-30px;
-    font-size:25px;
     text-align: center;
     padding-bottom:50px;
 }
 
-section:nth-of-type(4){
+body >section:nth-of-type(4) p{
+    font-size:18px;
+    padding-left: 30px;
+    padding-right: 30px;
+
 
 }
 
-section:nth-of-type(5)  {
+
+
+
+/* ************************
+ 5e section css Ongevenaarde realisme
+************************* */
+body > section:nth-of-type(5)  {
     background-image: url(/images/sectiestadium.jpg);
     padding-top: 150px;
     padding-bottom: 100px;
+    text-align: center;
+
+}
+body >section:nth-of-type(5) > button  {
     width:100%;
-    padding-right: 100px;
 }
-section:nth-of-type(5)  > p{
+body >section:nth-of-type(5)  > p{
     color: white;
     text-align: center;
 
 }
-section:nth-of-type(5) > h2{
-    text-align: center;
+body >section:nth-of-type(5) > h2{
     color: white;
 
 }
-section:nth-of-type(6)  {
+
+
+/* ************************
+ 6e section css AANBOD BEPERKTE TIJD GELDIg
+************************* */
+body >section:nth-of-type(6)  {
     background-image: url(/images/sectionbg.png);
-    width:100%;
-    display:flex;
     padding:50px;
 
+
 }
-section:nth-of-type(6) > section:nth-child(2)  > img{
-    width:100%;
+body > section:nth-of-type(6) > section:nth-child(1)  > img{
+    height:350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-section:nth-of-type(6)  p{
+body > section:nth-of-type(6) > section:nth-child(2)  > button {
+    width: 100%;
+}
+body >section:nth-of-type(6)  p{
     color:black;
 }
 
-section:nth-of-type(7) > section:nth-child(1) {
+
+
+/* ************************
+ 7e section css Hypermotion is alleen beschikbaar op:
+************************* */
+body >section:nth-of-type(7) > section:nth-child(1) {
     background-color: black;
     padding-top:10px;
     padding-bottom:10px;
 }
-section:nth-of-type(7) > section:nth-child(1) > p {
+body >section:nth-of-type(7) > section:nth-child(1) > p {
     color: white;
     padding-top:10px;
     padding-bottom:10px;
     text-align: center;
 }
 
+body >section:nth-of-type(7) > section:nth-child(2) {
+    background-color: #1C1F26;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+body >section:nth-of-type(7) > section:nth-child(2) > p {
+    color: white;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: center;
+}
+
+/* ************************
+Footer
+************************* */
+footer > section {
+    margin-left:20px;
+}
+footer > section:nth-child(1) {
+    margin-top:50px;
+
+}
+footer > section:nth-child(1) > img{
+    height:50px;
+}
+footer > section:nth-of-type(2) > p {
+    text-transform: uppercase;
+}
+
+footer > section:nth-of-type(3) > form >  select {
+    display:flex;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+}
 
