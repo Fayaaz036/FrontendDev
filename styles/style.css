@@ -29,14 +29,19 @@ button.doorzichtig {
     border-radius: 5px;
 }
 header button {
-    color:black;
-    background-color: orangered;
-    font-family: "NeuePlakTextW04-Regular", sans-serif ;
-    border-color:orangered;
+    background-color: white;
     height:45px;
-    font-size:16px;
     padding:5px 5px 10px 5px ;
+    margin-right:10px;
+    border:none;
+}
+.oranje {
+    background-color: rgb(236 105 47);
+    font-size: 16px;
+    padding: 10px;
+    height:50px;
     width:150px;
+    float: right;
     border-radius: 5px;
 }
 
@@ -59,6 +64,52 @@ header button {
 /****************/
 /* JOUW STYLING */
 /****************/
+/*Hamburgermenu
+
+ */
+nav {
+    position: fixed;
+    background: white;
+    width:100%;
+    padding: 10px;
+    top:0;
+    left:0;
+
+
+}
+nav.showmenu ul {
+    display: block!important;
+    left:0;
+    right:0;
+    height:100%;
+    position: fixed;
+    top:45px;
+    width:100%;
+    background-color: white;
+    color:black;
+    list-style-type: none;
+    font-size: 20px;
+    padding-top: 20px;
+
+
+
+
+}
+ ul {
+     list-style-type: none;
+     display:none;
+     padding-right:10%;
+
+
+ }
+ ul > li {
+     padding-bottom:10px;
+     border-bottom: 2px solid black;
+ }
+
+ nav > button:first-of-type {
+     margin-top: 10px;
+ }
 
 /* jouw code */
 
@@ -90,16 +141,9 @@ h4 {
 }
 header li {
     font-family: "NeuePlakTextW04-Regular", sans-serif ;
-    display:inline;
     margin: 10px;
 
 }
-
-header button {
-    float:right;
-}
-
-
 
 
 /* ************************
@@ -129,27 +173,31 @@ body > section:nth-of-type(1) > p  {
 /* ************************
  2e section css HYPERMOTION2
 ************************* */
-body>section:nth-of-type(2)  {
+body > section:nth-of-type(2) > video {
+    height:850px;
+}
+body>section:nth-of-type(2) > section  {
+    margin-top: -550px;
     display: block;
     text-align: center;
-    padding-bottom:150px ;
-    padding-top:150px;
     background-image: url(/images/sectiestadium.jpg);
 }
-body >section:nth-of-type(2) > h2 {
+body >section:nth-of-type(2) > section > h2 {
     color:white;
     padding-right: 20px;
 }
-body >section:nth-of-type(2) > button {
+body >section:nth-of-type(2) > section > button {
     color:white;
     width:80%
 }
 
+body>section:nth-of-type(2){
+    padding-bottom: 150px;
+}
 
-
-/* ************************
- 3e section css NIEUWE IN FIFA 23
-************************* */
+    /* ************************
+     3e section css NIEUWE IN FIFA 23
+    ************************* */
 body >section:nth-of-type(3) {
     background-image: url(/images/sectionbg.png);
 
