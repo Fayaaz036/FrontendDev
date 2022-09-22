@@ -1,6 +1,6 @@
 // JavaScript Document
-var button = document.querySelector("nav > button")
-var nav = document.querySelector("header>nav")
+const button = document.querySelector("nav > button");
+const nav = document.querySelector("header>nav");
 
 
 button.addEventListener('click', toggleMenu);
