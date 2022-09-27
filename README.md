@@ -83,10 +83,9 @@ mijn muis kwijt raakte.
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/menu.png" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -119,11 +118,7 @@ Niet alles ging vlekkeloos, maaar goed het werkt (een soort van)
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+website per ongeluk op desktop gemaakt. Volgens vasilis beste alles wegooien en opnieuw beginnen met website.
 </details>
 
 
@@ -136,26 +131,21 @@ Niet alles ging vlekkeloos, maaar goed het werkt (een soort van)
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+website omgegooid van desktop naar mobiel (een-koloms)
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+| fayaaz 1                                                            | student 2          | student 3    | student 4        |
+---------------------------------------------------------------------| ---                | ---          | ---              |
+ de video begint niet uit zichzelf, en soms begint hij helemaal niet | section background video?                                      | dit als er tijd is | nog een punt | dit wil ik zeker |
+| navigatie hamburger menu klapt wel uit, maar heeft geen animatie    | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+de website was goed volgens de studentassistent (imairo) & anwar heeft mij geholpen met de animatie toevoegen aan de hambugermenu.
 
 </details>
 
