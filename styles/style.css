@@ -293,7 +293,7 @@ body.home > section:nth-of-type(4) p{
  5e section css Ongevenaarde realisme
 ************************* */
 body.home > section:nth-of-type(5)  {
-    background-image: url(images/sectiestadium.jpg);
+    background-image: url("images/sectiestadium.jpg");
     padding: 150px 25px 100px 25px;
     text-align: center;
 
@@ -317,7 +317,7 @@ body.home > section:nth-of-type(5) > h2{
  6e section css AANBOD BEPERKTE TIJD GELDIg
 ************************* */
 body.home > section:nth-of-type(6)  {
-    background-image: url(images/sectionbg.png);
+    background-image: url("images/sectionbg.png");
     padding:50px;
 
 
