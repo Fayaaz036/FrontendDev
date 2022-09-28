@@ -468,7 +468,7 @@ body.info > main > section:nth-of-type(5)  {
 }
 
 body.info > main > section:nth-of-type(6)  {
-    background-image: url("images/sectionbg.png");
+    background-image: url(../images/sectionbg.png);
     padding:50px;
 
 
