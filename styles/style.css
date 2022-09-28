@@ -1,4 +1,8 @@
-/**************/
+/******
+	<link href="//db.onlinewebfonts.com/c/981d67528edb4fba5f7bcf3f1bf92a92?family=NeuePlakTextW04-Regular" rel="stylesheet" type="text/css"/>	<link href="//db.onlinewebfonts.com/c/d3a85c6c38eeb78ad624d05db74526bd?family=Neue+Plak+W01" rel="stylesheet" type="text/css"/>
+@import url(//db.onlinewebfonts.com/c/d3a85c6c38eeb78ad624d05db74526bd?family=Neue+Plak+W01);
+@import url(//db.onlinewebfonts.com/c/981d67528edb4fba5f7bcf3f1bf92a92?family=NeuePlakTextW04-Regular);/* CSS REMEDY */
+
 *, *::after, *::before {
   box-sizing:border-box;  
 }
