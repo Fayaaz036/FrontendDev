@@ -16,7 +16,6 @@ button, summary {
 button.zwart {
     color:white;
     background: black;
-    font-family: "NeuePlakTextW04-Regular", sans-serif ;
     border-color:black;
     height:45px;
     font-size:18px;
@@ -37,7 +36,6 @@ button.zwart:active {
 button.doorzichtig {
     color:white;
     background-color: transparent;
-    font-family: "NeuePlakTextW04-Regular", sans-serif ;
     border-color:white;
     height:45px;
     font-size:16px;
@@ -84,6 +82,10 @@ header button {
 
 }
 
+body {
+    font-family: 'Bebas Neue', sans-serif !important;
+
+}
 
 
 
@@ -142,12 +144,10 @@ body {
   background-color:var(--color-background);
 }
 p {
-    font-family: "NeuePlakTextW04-Regular", sans-serif ;
 
 }
 h1,  h2,  h3  {
     text-transform:uppercase;
-    font-family: "Neue Plak W01", sans-serif ;
 
 }
 .home h3 {
@@ -155,12 +155,8 @@ h1,  h2,  h3  {
     text-transform: uppercase;
 }
 
-h4 {
-    font-family: "Neue Plak W01", sans-serif ;
 
-}
 header li {
-    font-family: "NeuePlakTextW04-Regular", sans-serif ;
     margin: 10px;
 
 }
@@ -181,7 +177,6 @@ body.home > section:nth-of-type(1)  {
 body > section:nth-of-type(1) > p  {
     color:white;
     font-size: 10px;
-    font-family: "Neue Plak W01",sans-serif;
 
 }
 
