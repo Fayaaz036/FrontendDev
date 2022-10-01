@@ -162,28 +162,16 @@ de website was goed volgens de studentassistent (imairo) & anwar heeft mij gehol
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  De screenreader werkte naar behoren, de plaatjes met de Alt texten werden uitgesproken en de text op de website werd foutloos utgesproken.
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  toetsenbord navigatie werkte goed. Tabben door de pagina ging soepel en langs elke button
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  met de elastiekjes was de website prima navigeerbaar. 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  de kleuren op de website konden goed onderscheiden worden tijdens de verschillende filterbrillen die we hebben gebruikt. alleen niet helemaal leebaas mer een slechtziende bril. bij inzoomen werd alles wel duidelijker
 </details>
 
 
@@ -196,27 +184,17 @@ de website was goed volgens de studentassistent (imairo) & anwar heeft mij gehol
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  De testen waren succesvol en ik kon me richten op de beginfase van blingbling. de basis van de site was goed, alleen had ik nog een paar probleempjes. 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  ik had een paar problemen met de fotos van github die in mijn website stonden.
+  
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  basis was goed, nu kan ik me richten op e blingbling elementen van de website.
+  'button states goed uitgewerkt en maak er wat moois van' ~ Vasilis
 </details>
 
 

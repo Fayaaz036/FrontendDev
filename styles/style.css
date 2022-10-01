@@ -6,9 +6,26 @@
 *, *::after, *::before {
   box-sizing:border-box;  
 }
+:root {
+    --textkleur: white;
+    --textzwart: black;
+    --color-background: white;
+    --fontfam: 'Bebas Neue', sans-serif;
+}
+
+@media (prefers-color-scheme: light){
+    body.info article {
+        --textkleur: #2c2c2c;
+        --textzwart: white;
+    }
+}
+
+#smoothscroll {
+    scroll-behavior: smooth!important;
+}
 
 button, summary {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: var(--fontfam);
     font-size:18px;
 	cursor: pointer;
 }
@@ -16,17 +33,40 @@ button, summary {
 .voiceover {
 display:none;
 }
+.loading {
+    display: none;
+}
+
+.loadingaan {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--textkleur);
+    z-index: 1000;
+    transition: ease-out 1s ;
+}
+.loadingaan > img  {
+    padding:10%;
+    width:100%;
+    height:100%;
+
+}
 /*url styles & states
 
  */
+nav {
+    background-color: var(--textkleur);
+    z-index: 1;
+}
 
 nav > ul > li> a  ,  :active , :visited {
-    color:black;
+    color:var(--textzwart);
     text-decoration: none;
 }
 
 nav > ul > li > a:hover {
-    border-bottom: black 3px solid;
+    border-bottom: var(--textzwart) 3px solid;
 }
 
 
@@ -34,57 +74,66 @@ nav > ul > li > a:hover {
 /*button styles & states
 
  */
+button.zwart:focus, button.doorzichtig:focus, button.oranje:focus{
+    transform: rotateX(360deg);
+
+}
+button.zwart, button.doorzichtig, button.oranje {
+    transition: transform 1s;
+    transform: rotateX(0deg);
+
+}
 button.zwart {
-    color:white;
-    background: black;
-    border-color:black;
+    color:var(--textkleur);
+    background: var(--textzwart);
+    border-color:var(--textzwart);
     height:45px;
     font-size:18px;
     padding:5px 5% 10px 5% ;
     border-radius: 5px;
 }
 button.zwart:hover {
-    color:black;
-    background: white;
-    border-color:black;
+    color:var(--textzwart);
+    background: var(--textkleur);
+    border-color:var(--textzwart);
     transform:translateY(0%);
 
 }
 button.zwart:active {
-    color:black;
+    color:var(--textzwart);
     background: cornsilk;
-    border-color:black;
+    border-color:var(--textzwart);
     transform:translateY(1500%);
     transition: transform 0.5s ease-out;
 }
 
 button.doorzichtig {
-    color:white;
+    color:var(--textkleur);
     background-color: transparent;
-    border-color:white;
+    border-color:var(--textkleur);
     height:45px;
     font-size:16px;
     padding:5px 15px 10px 15px ;
     border-radius: 5px;
 }
 button.doorzichtig:hover {
-    color:black!important;
-    background-color: white;
-    border-color:white;
+    color:var(--textzwart)!important;
+    background-color: var(--textkleur);
+    border-color:var(--textkleur);
     transform:translateX(0%);
 
 }
 button.doorzichtig:active {
-    color:black;
+    color:var(--textzwart);
     background-color: cornsilk;
-    border-color:white;
-    transform:translateX(-150%);
+    border-color:var(--textkleur);
+    transform:translateX(-1500%);
     transition: transform 0.5s ease-out;
 
 }
 
 header button {
-    background-color: white;
+    background-color: var(--textkleur);
     height:45px;
     padding:5px 5px 10px 5px ;
     margin-right:10px;
@@ -103,16 +152,10 @@ header button {
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
-:root {
-	/* startje */
-	--color-background:#eee;
-    --color-kaart:white;
 
-
-}
 
 body {
-    font-family: 'Bebas Neue', sans-serif !important;
+    font-family: var(--fontfam);
 
 }
 
@@ -127,7 +170,7 @@ body {
  */
 nav {
     position: fixed;
-    background: white;
+    background: var(--textkleur);
     width:100%;
     padding: 10px;
     top:0;
@@ -145,9 +188,9 @@ ul {
      height:100%;
      position: fixed;
      top:45px;
-     width:100%;
-     background-color: white;
-     color:black;
+     width:75%;
+     background-color: var(--textkleur);
+     color:var(--textzwart);
      font-size: 20px;
      padding-top: 20px;
      transition: transform 0.5s ease-out;
@@ -161,7 +204,7 @@ nav.showmenu ul {
 ul > li {
     font-size: 25px;
      padding-bottom:10px;
-     border-bottom: 2px solid black;
+     border-bottom: 2px solid var(--textzwart);
 }
 
 nav > button:first-of-type {
@@ -180,8 +223,8 @@ h1,  h2,  h3  {
 p {
     font-size:24px!important;
 }
-body.home > main > h3 {
-    color:black;
+body.home > main > h3, h2 {
+    color:var(--textzwart);
     text-transform: uppercase;
     font-size:30px;
 
@@ -198,8 +241,6 @@ header li {
  1e section css
 ************************* */
 body.home > main > section:nth-of-type(1)  {
-    display:flex;
-    background-color: #144162;
     height:50px;
     padding:10px;
     max-width:100%;
@@ -223,11 +264,12 @@ body.home > main> section:nth-of-type(2) > section  {
     text-align: center;
 }
 body.home > main > section:nth-of-type(2) > section > h2 {
-    color:white;
+    color:var(--textkleur);
     padding-right: 20px;
+
 }
 body.home > main > section:nth-of-type(2) > section > button {
-    color:white;
+    color:var(--textkleur);
     width:80%
 }
 
@@ -246,12 +288,12 @@ body.home > main > section:nth-of-type(3)  > h2 {
     text-align: center;
     margin-bottom: 2em;
     font-size: 2em;
-    color:black;
+    color:var(--textzwart);
 }
 
 body.home > main > section:nth-of-type(3) > article {
     display:grid;
-    background-color:var(--color-kaart);
+    background-color:var(--textkleur);
     width:400px;
     height:100%;
     margin-left: auto;
@@ -268,6 +310,7 @@ body.home > main > section:nth-of-type(3)  > article > p {
 }
 body.home > main > section:nth-of-type(3)  > article > h3 {
     text-align: center;
+    font-size:30px;
 }
 
 body.home > main > section:nth-of-type(3)  {
@@ -324,12 +367,12 @@ body.home > main > section:nth-of-type(5) > button  {
     width:100%;
 }
 body.home > main > section:nth-of-type(5)  > p{
-    color: white;
+    color: var(--textkleur);
     text-align: center;
 
 }
 body.home > main > section:nth-of-type(5) > h2{
-    color: white;
+    color: var(--textkleur);
 
 }
 
@@ -353,7 +396,7 @@ body.home > main > section:nth-of-type(6) > section:nth-child(2)  > button {
     width: 100%;
 }
 body.home > main > section:nth-of-type(6)  p{
-    color:black;
+    color:var(--textzwart);
 }
 
 
@@ -362,12 +405,12 @@ body.home > main > section:nth-of-type(6)  p{
  7e section css Hypermotion is alleen beschikbaar op:
 ************************* */
 body.home > main > section:nth-of-type(7) > section:nth-child(1) {
-    background-color: black;
+    background-color: var(--textzwart);
     padding-top:10px;
     padding-bottom:10px;
 }
 body.home > main > section:nth-of-type(7) > section:nth-child(1) > p {
-    color: white;
+    color: var(--textkleur);
     padding-top:10px;
     padding-bottom:10px;
     text-align: center;
@@ -379,11 +422,84 @@ body.home > main > section:nth-of-type(7) > section:nth-child(2) {
     padding-bottom:10px;
 }
 body.home > main > section:nth-of-type(7) > section:nth-child(2) > p {
-    color: white;
+    color: var(--textkleur);
     padding-top:10px;
     padding-bottom:10px;
     text-align: center;
 }
+
+/* ************************
+Form nieuwsbrief
+
+************************* */
+body.home > main > section:nth-of-type(8){
+    padding: 1em;
+    background-color: var(--textzwart);
+}
+
+body.home > main > section:nth-of-type(8) > form {
+    margin-bottom:50px;
+
+}
+
+body.home > main > section:nth-of-type(8) > h2{
+    padding: 1em;
+    color:var(--textkleur);
+
+
+}
+
+
+input[type= email], input[ type= text] {
+    width:100%;
+    font-size: 1.2em;
+    margin-bottom: 25px;
+    border: 3px var(--textkleur) solid;
+    background-color: var(--textkleur);
+    color: var(--textzwart);
+    font-family: var(--fontfam);
+    transition: 0.5s ease-out ;
+}
+input[type= email]:hover, input[ type= text]:hover {
+  transform: scale(105%);
+}
+input[type= email]:focus, input[ type= text]:focus {
+    transform: scale(105%);
+
+}
+input[type=submit] {
+    margin-left: 25%;
+    width:50%;
+    font-size: 1.5em;
+    transition: 0.5s ease-out ;
+    font-family: var(--fontfam);
+    border-radius: 5px;
+    border: solid var(--textkleur);
+}
+input[type=submit]:hover {
+    transform: scale(110%);
+    border: 2px solid var(--textkleur);
+}
+input[type=submit]:focus {
+    transform: scale(110%);
+    border: 2px solid var(--textkleur);
+}
+
+::placeholder {
+    color:var(--textzwart);
+}
+
+
+input:required {
+    background-color: var(--textkleur);
+}
+input:required:invalid {
+    background-color: lightcoral;
+}
+
+
+
+
 
 /* ************************
 Footer
@@ -400,11 +516,11 @@ footer > section:nth-child(1) > img{
 }
 footer > section:nth-of-type(2) > p {
     text-transform: uppercase;
-    color:black;
+    color:var(--textzwart);
 }
 footer > section:nth-child(4) > p {
     text-transform: uppercase;
-    color:black;
+    color:var(--textzwart);
 }
 
 footer > section:nth-of-type(3) > form >  select {
@@ -421,7 +537,7 @@ footer > section:nth-of-type(3) > form >  select {
  */
 
 body.info  p, body.info h2 , body.info h3{
-    color:white;
+    color:var(--textkleur);
 }
 body.info {
     font-size:30px;
@@ -465,7 +581,7 @@ Geavanceerde t/m de dameswedstrijd
  */
 body.info > main > section:nth-of-type(2) > article  {
     margin-top:-20px;
-    background: black;
+    background: var(--textzwart);
     padding: 25px;
 }
 
@@ -475,14 +591,14 @@ Geavanceerde t/m de dameswedstrijd
  */
 body.info > main > section:nth-of-type(3) > article  {
     margin-top:-20px;
-    background: black;
+    background: var(--textzwart);
     padding: 25px;
     text-align: center;
 }
 
 body.info > main > section:nth-of-type(4) > article  {
     margin-top:-20px;
-    background: black;
+    background: var(--textzwart);
     padding: 25px;
 }
 body.info > main > section:nth-of-type(4) > img  {
@@ -492,7 +608,7 @@ body.info > main > section:nth-of-type(4) > img  {
 body.info > main > section:nth-of-type(5)  {
     height:500px;
     margin-top:-20px;
-    background: black;
+    background: var(--textzwart);
     padding: 25px;
     text-align: center;
 }
@@ -513,7 +629,7 @@ body.info > main > section:nth-of-type(6) > section:nth-child(2)  > button {
     width: 100%;
 }
 body.info > main > section:nth-of-type(6)  p{
-    color:black;
+    color:var(--textzwart);
 }
 
 
@@ -522,12 +638,12 @@ body.info > main > section:nth-of-type(6)  p{
  7e section css Hypermotion is alleen beschikbaar op:
 ************************* */
 body.info > main > section:nth-of-type(7) > section:nth-child(1) {
-    background-color: black;
+    background-color: var(--textzwart);
     padding-top:10px;
     padding-bottom:10px;
 }
 body.info > main > section:nth-of-type(7) > section:nth-child(1) > p {
-    color: white;
+    color: var(--textkleur);
     padding-top:10px;
     padding-bottom:10px;
     text-align: center;
@@ -539,7 +655,7 @@ body.info > main > section:nth-of-type(7) > section:nth-child(2) {
     padding-bottom:10px;
 }
 body.info > main > section:nth-of-type(7) > section:nth-child(2) > p {
-    color: white;
+    color: var(--textkleur);
     padding-top:10px;
     padding-bottom:10px;
     text-align: center;

@@ -14,15 +14,16 @@
 </head>
 
 <body class="home">
+
 <p class="voiceover">Let op, dit is een opdracht. Dit is niet de echte website van Fifa.  </p>
 <header>
 	<nav>
 		<ul>
 			<li><a href="info.html">INFO</a></li>
-			<li><a>KENMERKEN</a></li>
-			<li><a>ULTIMATE TEAM</a></li>
-			<li><a>COMMUNITY</a></li>
-			<li><a>NIEUWS & MEDIA</a></li>
+			<li><a href="#vrouwenvoetbal">Vrouwenvoetbal</a></li>
+			<li><a href="#crossplay">Cross-Play</a></li>
+			<li><a href="#ongeevenaard">COMMUNITY</a></li>
+			<li><a href="#buynow">NIEUWS & MEDIA</a></li>
 		</ul>
 		<button>
 			<img src="images/icons8-menu-30.png" alt="">
@@ -37,7 +38,7 @@
 	</nav>
 
 </header>
-<main>
+<main id="smoothscroll">
 
 	<section>
 		<!--
@@ -62,8 +63,8 @@
 
 	</section>
 
-	<section>
-			<h2>Nieuwe in fifa 23</h2>
+	<section id="vrouwenvoetbal">
+			<h2>Nieuw in Fifa 23</h2>
 
 			<article>
 				<img src="images/vrouwenvoetbal.jpg" alt="Nieuwe functie, Vrouwenvoetbal">
@@ -85,7 +86,7 @@
 			</article>
 	</section>
 
-	<section>
+	<section id="crossplay">
 				<h3>CROSS-PLAY KOMT NAAR FIFA 23
 				</h3>
 				<p>Speel tegen vrienden op verschillende platformen van dezelfde generatie en ga s
@@ -94,7 +95,7 @@
 				<button class="zwart">Meer informatie</button>
 	</section>
 
-	<section>
+	<section id="ongeevenaard">
 		<h2>ONGEËVENAARD REALISME
 		</h2>
 		<p>Speel The World’s Game met meer dan 19.000 spelers, meer dan 700 teams, meer dan 100
@@ -103,7 +104,7 @@
 		<button class="doorzichtig">Bekijk alle Leagues en Clubs</button>
 	</section>
 
-	<section>
+	<section id="buynow">
 		<section>
 			<img src="images/mbappe.png" alt="Pre Order nu!">
 		</section>
@@ -130,13 +131,27 @@
 
 		<section>
 			<p>*Er zijn bepaalde voorwaarden en beperkingen van toepassing.
-				Zie <a>https://www.ea.com/nl-nl/games/fifa/fifa-23/game-offer-and-disclaimers</a> voor meer informatie.
+				Zie https://www.ea.com/nl-nl/games/fifa/fifa-23/game-offer-and-disclaimers voor meer informatie.
 			</p>
 		</section>
 
 	</section>
-</main>
 
+	<section>
+		<h2>Schrijf je in voor onze nieuwsbrief.</h2>
+		<form>
+			<label>
+				<input type="text" name="Voornaam" placeholder="Typ hier uw naam" required>
+			</label>
+			<label>
+				<input type="email" name="Email" placeholder="Typ hier uw email-adres" required>
+			</label>
+			<input type="submit" value="Aanmelden">
+		</form>
+
+	</section>
+
+</main>
 
 <footer>
 	<section>
@@ -186,8 +201,8 @@
 	</section>
 
 </footer>
+
 <script src="scripts/script.js"></script>
 
 </body>
-
 </html>
