@@ -207,19 +207,27 @@ de website was goed volgens de studentassistent (imairo) & anwar heeft mij gehol
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/websitefinal.png" width="500px" alt="uitomst opdracht 1">
+  de website is vrijwel identiek aan de website van Fiaf 23. Alleen omdat de game al uit is, en ik het in de fase van pre-order 
+ging maken, is het zo dat de bestaande website veranderd is. 
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
+  <img src="readme-images/codereadme.png" width="500px" alt="top">
+  Ik heb al wel wat ervaring met html/css, maar ik heb nog nooit alleen op basis van Sections en articles gewerkt. hierbij moest ik wel een kijken hoe t werkte in het begin met die :nth-of-type(). Dat heb ik wel goed opgepakt en goed semantisch correct gebruikt. 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/probleemreadme.png" width="500px" alt="bummer">
+  Het is mij niet gelukt de smooth-scroll werkend te krijgen. Ik heb opgezocht op het internet hoe ik de structuur moet opmaken door de grootste sectie een id geven, en de andere ondersecties een id voor de linkjes in het menu. Hierbij heb ik in de CSS de id van de grootste sectie aangeroepen
+en de smooth scroll aangezet in de CSS. Maar helaas was dat niet gelukt.
+
+  <img src="readme-images/probleemreadmeform.png" width="100%" alt="bummer">
+  het is mij niet gelukt om de form helemaal correct te krijgen. Hierbij heb  ik de INVALID state aangepast naar een rode achtergrond om aan te duiden dat de formen niet goed ingevuld zijn. 
+maar omdat die standaard leeg zijn, worden ze direct rood. Ik heb hier veel naar gezocht, maar ik heb er niks anders op kunnen vinden dan een javascript of jquery solution wat ik simpelweg niet de goede oplossing vond voor mijn doen. 
 </details>
 
 
@@ -233,8 +241,6 @@ de website was goed volgens de studentassistent (imairo) & anwar heeft mij gehol
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
-
+https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_option_label --> voor de optionbox in de footer. 
+Bronnen heb ik niet echt gebruikt, meer bijvoorbeeld dat ik dan opzoek hoe ik iets kan maken, en dan zelf proberen uit te vogelen.
 </details>
