@@ -463,7 +463,7 @@ input[type= email], input[ type= text] {
 input[type= email]:hover, input[ type= text]:hover {
   transform: scale(105%);
 }
-input[type= email]:focus, input[ type= text]:focus {
+input[type= email]:focus,  input[ type= text]:focus {
     transform: scale(105%);
 
 }
